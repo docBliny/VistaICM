@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VistaICM", "VistaICM\VistaICM.csproj", "{8971A80F-24E3-4770-8310-4B31AD664D38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IcmDisplay", "IcmDisplay\IcmDisplay.csproj", "{13CDAB46-D27F-43A6-9F34-08F62BE2DCB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VistaIcmTests", "VistaIcmTests\VistaIcmTests.csproj", "{87DBBC86-50A2-4797-8BB6-050759BACFF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{36780992-6367-4C6E-8C63-8F07AB07E0E8}"
+	ProjectSection(SolutionItems) = preProject
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+		VistaICM.vsmdi = VistaICM.vsmdi
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = VistaICM.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8971A80F-24E3-4770-8310-4B31AD664D38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8971A80F-24E3-4770-8310-4B31AD664D38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8971A80F-24E3-4770-8310-4B31AD664D38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8971A80F-24E3-4770-8310-4B31AD664D38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13CDAB46-D27F-43A6-9F34-08F62BE2DCB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13CDAB46-D27F-43A6-9F34-08F62BE2DCB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13CDAB46-D27F-43A6-9F34-08F62BE2DCB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13CDAB46-D27F-43A6-9F34-08F62BE2DCB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87DBBC86-50A2-4797-8BB6-050759BACFF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87DBBC86-50A2-4797-8BB6-050759BACFF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87DBBC86-50A2-4797-8BB6-050759BACFF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87DBBC86-50A2-4797-8BB6-050759BACFF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
